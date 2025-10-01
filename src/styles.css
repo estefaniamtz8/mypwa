@@ -1,0 +1,33 @@
+:root {
+  --theme: #00B5C9;
+  --bg: #ffffff;
+}
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: var(--bg);
+  color: #111827;
+}
+
+.splash {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--theme);
+  color: white;
+}
+
+.splash-logo {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 12px;
+}
+
+.home {
+  padding: 24px;
+}
